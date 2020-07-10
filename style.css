@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat" , sans-serif; 
+}
+
+.active {
+    color: #0088a9;
+}
+li, a, button {
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+}
+
+.header-p {
+    color: white;
+    border: 1px solid #edf0f1;
+    border-radius: 3rem;
+    padding: .5rem;
+    font-weight: bolder;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5%;
+    background: white;
+}
+
+nav {
+    list-style: none;
+}
+
+nav ul {
+    list-style: none; 
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1rem;
+    background: white;
+    
+}
+
+nav ul li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+    background: white;
+
+}
+
+nav ul li a:hover {
+    color:#0088a9;
+}
+
+button {
+    padding: .55rem 1.5rem;
+    background: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background: rgba(0, 136, 169, 0.7);
+
+}
+
+.showcase {
+    display:flex;
+    justify-content: space-between;
+    background: rgb(235, 235, 235);
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+.showcase img {
+    height: 20rem;
+}
+
+.showcase .showcase-content{
+    width: 100%;
+    background: white;
+    margin: 0 2.5rem;
+    box-shadow: .5px 1px 3px rgb(150, 150, 150 , .9);
+    
+}
+
+.showcase .showcase-content h2 {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+.showcase .showcase-content .name {
+    color: #0088a9;
+}
+
+/* Resume box */
+.container {
+    background: rgb(235, 235, 235);
+
+}
+.resume-box {
+    background: white;
+    display: flex;
+    padding: .5rem 0 1rem 0rem;
+    justify-content: start;
+    justify-content: center;
+}
+
+.resume-box .resume-button {
+    height: 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: .1rem;
+}
+/* amir area */
+
+.amir-area {
+    margin: 0 0 0 2.5rem;
+    background: white;
+    box-shadow: .5px 1px 3px rgb(150, 150, 150 , .9);
+}
+
+.amir-name {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    padding: .25rem 0 .5rem 0;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+}
+
+.amir-personal-info ul {
+    padding: .5rem .5rem .5rem 2rem; 
+    line-height: 1.5rem;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.amir-personal-info ul li{
+    font-size: .8rem;
+}
+
+
