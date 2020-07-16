@@ -7,8 +7,14 @@
     font-family: "Montserrat" , sans-serif; 
 }
 
+body {
+    background: rgb(235, 235, 235);
+    position: relative;
+    padding-bottom: 30px;
+}
 .active {
     color: #0088a9;
+    text-decoration: underline;
 }
 li, a, button {
     font-family: "Montserrat" , sans-serif;
@@ -49,7 +55,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding: 0 1rem;
+    padding: 0 .6rem;
     background: white;
     
 }
@@ -63,6 +69,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color:#0088a9;
+    text-decoration: underline;
 }
 
 button {
@@ -107,7 +114,7 @@ button:hover {
     color: #0088a9;
 }
 
-/* Resume box */
+/* Resume box under contact button in amir area */
 .container {
     background: rgb(235, 235, 235);
 
@@ -124,7 +131,7 @@ button:hover {
     height: 2rem;
     border-radius: 5px;
     text-transform: uppercase;
-    font-size: .1rem;
+    font-size: .6em;
 }
 /* amir area */
 
@@ -155,4 +162,81 @@ button:hover {
     font-size: .8rem;
 }
 
+/* for contact buttons like facebook, snap, linkedin */
+#contact-div {
+    width:100%;		/* Height of the footer */
+}
+
+.thecontact-div{
+text-align: center;
+transform: translateV(-50%);
+display: flex;
+justify-content: center;
+flex-direction: row;
+margin: auto;
+padding: .3rem 1rem 0rem 1rem;
+}
+
+
+.btn{
+    display: inline-block;
+    color: rgba(0, 136, 169, 1);
+    border-radius: 30%;
+    background: #ffffff;
+    margin: .5rem;
+    /*overflow: hidden;*/
+    position: relative;
+}
+
+.btn {
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+
+.btn:hover {
+    transform: scale(1.3);
+    /*color: white;*/
+}
+
+.btn::before {
+    content: "";
+    width: 120%;
+    height: 120%;
+    /*color: aqua;*/
+    background: #3498db;
+    /*transform: rotate(45deg);*/
+    /*left:-110%;*/
+    /*top:90%;*/
+}
+
+
+/* for nav resume button */
+.resume-button {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: small;  
+    border-radius: 5px;
+}
+
+ul button {
+    height: 2.5rem;
+    margin-left: .5rem;
+    border-radius: 5px;
+}
+
+/* footer general */
+#footer {
+    background-color: white;
+    color: #0088a9;
+    font-weight: bold;
+    text-align: center;
+    padding: .7rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+#footer p {
+    font-size: 1rem;
+}
 
